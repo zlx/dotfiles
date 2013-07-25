@@ -1,0 +1,44 @@
+# .bash_alias
+# User specific aliases and functions
+alias eclipse=/usr/java/eclipse.sh
+alias rd='rdesktop -uAdministrator -p123456 -r clipboard:PRIMARYCLIPBOARD'
+alias bc='cd ~/work/company/buychina'
+alias bcs='cd ~/work/company/buychina_svn'
+alias code='cd ~/code'
+alias goal='cd ~/goal; tree'
+alias goapi='cd ~/code/company/api'
+alias gods='cd ~/code/company/data_source'
+alias gocms='cd ~/code/company/blue-cms'
+alias blog='cd ~/work/blog'
+alias gc='git commit'
+alias gl='git pull'
+alias gp='git push'
+alias gca='git commit -a'
+alias gb='git branch'
+alias gco='git checkout'
+alias gcod='git checkout develop'
+alias gcom='git checkout master'
+alias gs='git status'
+alias ga='git add'
+alias gd='git diff'
+alias ss='rails s'
+alias sc='rails c'
+alias sscms='APP=cms rails s -P tmp/pids/cms.pid'
+alias ssapi='APP=api rails s'
+alias sccms='APP=cms rails c'
+alias scapi='APP=api rails c'
+alias ssp='rails s -e production'
+alias sb='rails db'
+alias gmt='git mergetool'
+alias start='xdg-open'
+alias my_proxy='python ~/google_appengine/local/proxy.py'
+alias my_proxy2='python ~/google_appengine_bak/goagent/local/proxy.py'
+alias ele='~/elasticsearch/bin/elasticsearch'
+alias vi='vim -c NERDTree'
+alias xmind='cd ~/xmind/XMind_Linux_64bit; ./XMind'
+alias mvim='rvm system do /usr/local/bin/mvim $@'
+alias sshstage="ssh deploy@vm-192-168-17-137.hd01.sdcloud.cn"
+alias sshserver="ssh deploy@vm-192-168-17-20.hd01.sdcloud.cn"
+alias sshdb="ssh deploy@vm-192-168-16-51.hd01.sdcloud.cn"
+alias sshxmpp="ssh deploy@vm-192-168-12-253.hd01.sdcloud.cn"
+alias git-line-summary="~/code/mine/git-extras/bin/git-line-summary"
