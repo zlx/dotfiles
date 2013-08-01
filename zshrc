@@ -47,10 +47,14 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/.bash_alias
 
-PROMPT="$red%n@%m $blue➜ [ $red%~ $green$(git_prompt_info)$yellow$(rvm_prompt_info)$blue ]$reset_color
-$ "
+PATH=$PATH:/usr/local/sbin
+PROMPT='$red%n@%m $blue➜ [ $red%~ $green$(git_prompt_info)$yellow$(rvm_prompt_info)$blue ]$reset_color
+$ '
 
 # Customize to your needs...
 alias cowsay='nocorrect cowsay'
 alias fortune='nocorrect fortune'
 alias gpc='git push | fortune | cowsay'
+
+EDITOR=vim
+BUNDLER_EDITOR=vim
