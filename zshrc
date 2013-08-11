@@ -58,3 +58,8 @@ alias gpc='git push | fortune | cowsay'
 
 EDITOR=vim
 BUNDLER_EDITOR=vim
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
